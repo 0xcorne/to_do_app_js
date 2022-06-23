@@ -1,0 +1,74 @@
+/* 
+Created with passion by Corné Adema / 0xcorne
+GitHub: https://github.com/0xcorne
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFC050;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+}
+
+.box {
+    margin-top: 15rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+form {
+    margin: auto;
+    max-width: 100%;
+    width: 300px;
+}
+
+#input {
+    display: block;
+    padding: 0.8rem 2rem;
+    border: none;
+    font-size: 2rem;
+    width: 100%;
+    box-shadow: 0px 10px 13px -7px #000000;
+    outline: none;
+}
+
+#input::placeholder {
+    color: #b4b3b3;
+}
+
+.small_text  {
+    margin-top: 4rem;
+}
+
+.ul_list {
+    background-color: #fff;
+    color: #1d1d1d;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 10px 13px -7px #000000;
+}
+
+.ul_list li {
+    padding: 0.8rem 2rem;
+    font-size: 2rem;
+    border-top: 2px solid #1d1d1d;
+    cursor: pointer;
+}
+
+.ul_list li.completed_task {
+    text-decoration: line-through;
+    text-decoration-thickness: 10px;
+    text-decoration-color: #EFC050;
+}
